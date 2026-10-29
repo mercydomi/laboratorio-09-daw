@@ -1,0 +1,17 @@
+# Editor and operating system
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Runtime logs and Tomcat artifacts
+*.log
+jsp-app/work/
+jsp-app/temp/
+jsp-app/WEB-INF/classes/
+jsp-app/WEB-INF/lib/
+
+# Evidence captures can be large; retain only if explicitly needed for delivery
+evidencias/*.png
+evidencias/*.jpg
